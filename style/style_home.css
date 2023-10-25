@@ -1,3 +1,44 @@
-.navbar {
+
+.navbar, footer {
     background-color: burlywood;
+}
+
+.navbar-brand {
+    font-family: 'Playpen Sans', cursive;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.contenitore {
+    width: 90%;
+    /* background-color: blueviolet; */
+    border: 2px solid black;
+    border-top: 0px;
+    border-bottom: 0px;
+}
+.photo {
+    height: 75vh;
+    width: 80vh;
+    background: url("https://i.pinimg.com/originals/e5/f0/a7/e5f0a7b554e6aa41a2501febdc27085a.jpg");
+    background-size: cover;
+}
+
+body {
+    background-color: bisque;
+}
+
+.text {
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+h4 {
+    color: burlywood;
+}
+
+footer {
+    margin-top: 1%;
+    flex-wrap: wrap;
+    text-align: center;
 }

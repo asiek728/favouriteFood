@@ -1,5 +1,6 @@
 body {
     background-color: bisque;
+
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -25,6 +26,7 @@ main {
 
 .ingredients, .recipe {
     background-color: burlywood;
+
     border-radius: 30px;
     padding: 40px;
     height: 600px;
@@ -37,6 +39,3 @@ main {
 .recipe {
     width: 50%;
 }
-
-
-

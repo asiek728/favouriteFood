@@ -1,33 +1,39 @@
+body {
+    background-color: #b2b7ce;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.navbar, footer {
+    background-color: #686fa5;
+}
+
 header {
     display: flex;
     justify-content: center;
+    margin: 20px;
 }
 
 main {
     display: flex;
-    justify-content: space-around;
     align-items: center;
-    margin-bottom: 30px;
-    height: 100vh;
+    justify-content: space-around;
+    margin: 50px;
 }
 
+.ingredients, .recipe {
+    background-color: #cbcfe2;
+    border-radius: 30px;
+    padding: 40px;
+    height: 600px;
+}
 
 .ingredients {
-    border: 1px solid black;
     width: 40%;
-    height: 400px;
+
 }
 .recipe {
-    border: 1px solid black;
     width: 50%;
-    height: 400px;
-}
-
-
-.navbar {
-    background-color: burlywood;
-}
-
-footer {
-    background-color: burlywood;
 }

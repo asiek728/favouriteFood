@@ -37,3 +37,7 @@ main {
 .recipe {
     width: 50%;
 }
+
+li:not(:last-child) {
+    margin-bottom: 5px;
+}

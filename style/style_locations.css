@@ -1,9 +1,6 @@
 body {
     background-color: #b2b7ce;
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
 
 .navbar, footer {

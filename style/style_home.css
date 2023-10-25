@@ -1,15 +1,12 @@
-
 .navbar, footer {
     background-color: burlywood;
 }
-
 .navbar-brand {
     font-family: 'Playpen Sans', cursive;
     display: flex;
     justify-content: center;
     text-align: center;
 }
-
 .contenitore {
     width: 90%;
     /* background-color: blueviolet; */
@@ -23,26 +20,21 @@
     background: url("https://i.pinimg.com/originals/e5/f0/a7/e5f0a7b554e6aa41a2501febdc27085a.jpg");
     background-size: cover;
 }
-
 body {
     background-color: bisque;
 }
-
 .text {
     flex-wrap: wrap;
     text-align: center;
 }
-
 h4 {
     color: rgb(155, 122, 79);
 }
-
 footer {
     margin-top: 2px;
     flex-wrap: wrap;
     text-align: center;
 }
-
 .boxes>div {
     background-color: #cbcfe2;
     border: 1px solid white;

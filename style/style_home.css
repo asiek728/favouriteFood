@@ -26,16 +26,29 @@ body {
 .text {
     flex-wrap: wrap;
     text-align: center;
+    margin: 20px;
 }
 h4 {
     color: rgb(155, 122, 79);
+    margin: 20px;
 }
 footer {
     margin-top: 2px;
     flex-wrap: wrap;
     text-align: center;
+    text-decoration: none;
 }
 .boxes>div {
-    background-color: #cbcfe2;
+    background-color: burlywood;
     border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
 }
+
+header {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+  }

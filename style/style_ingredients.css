@@ -1,0 +1,33 @@
+header {
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+    height: 100vh;
+}
+
+
+.ingredients {
+    border: 1px solid black;
+    width: 40%;
+    height: 400px;
+}
+.recipe {
+    border: 1px solid black;
+    width: 50%;
+    height: 400px;
+}
+
+
+.navbar {
+    background-color: burlywood;
+}
+
+footer {
+    background-color: burlywood;
+}

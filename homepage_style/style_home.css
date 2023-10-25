@@ -34,11 +34,16 @@ body {
 }
 
 h4 {
-    color: burlywood;
+    color: rgb(155, 122, 79);
 }
 
 footer {
-    margin-top: 1%;
+    margin-top: 2px;
     flex-wrap: wrap;
     text-align: center;
+}
+
+.boxes>div {
+    background-color: #cbcfe2;
+    border: 1px solid white;
 }

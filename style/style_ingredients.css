@@ -1,0 +1,39 @@
+body {
+    background-color: bisque;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.navbar, footer {
+    background-color: burlywood;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px;
+}
+
+.ingredients, .recipe {
+    background-color: #cbcfe2;
+    border-radius: 30px;
+    padding: 40px;
+    height: 600px;
+}
+
+.ingredients {
+    width: 40%;
+
+}
+.recipe {
+    width: 50%;
+}

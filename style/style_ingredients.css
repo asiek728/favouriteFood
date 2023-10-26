@@ -6,7 +6,8 @@ body {
     justify-content: space-between;
 }
 
-.navbar, footer {
+.navbar,
+footer {
     background-color: burlywood;
 }
 
@@ -14,26 +15,88 @@ header {
     display: flex;
     justify-content: center;
     margin: 50px;
-  }
+}
 
 main {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin: 50px;
+    margin: 0px;
 }
 
-.ingredients, .recipe {
+.ingredients,
+.recipe {
     background-color: burlywood;
     border-radius: 30px;
-    padding: 40px;
+    padding: 20px;
     height: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .ingredients {
-    width: 40%;
+    width: 30%;
 
 }
+
 .recipe {
-    width: 50%;
+    width: 60%;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table tr {
+    border-bottom: 1px dotted black;
+}
+
+table tr:last-child {
+    border: 0;
+}
+
+tr>td {
+    padding: 5px;
+    text-align: center
+}
+
+@media only screen and (max-width: 1100px) {
+    .ingredients,
+    .recipe {
+        margin-bottom: 40px;
+        height:700px;
+    }
+    body {
+        min-height:fit-content;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .ingredients,
+    .recipe {
+        margin-bottom: 40px;
+        height:750px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .ingredients,
+    .recipe {
+        margin-bottom: 40px;
+        height:850px;
+    }
+}
+@media only screen and (max-width: 620px) {
+    .ingredients,
+    .recipe {
+        margin-bottom: 40px;
+        height:950px;
+    }
+}
+@media only screen and (max-width: 520px) {
+    .ingredients,
+    .recipe {
+        margin-bottom: 40px;
+        height:1050px;
+    }
 }

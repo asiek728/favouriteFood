@@ -36,7 +36,6 @@ footer {
     margin-top: 2px;
     flex-wrap: wrap;
     text-align: center;
-    text-decoration: none;
 }
 .boxes>div {
     background-color: burlywood;
